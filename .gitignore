@@ -1,19 +1,63 @@
 # Dependencies
 node_modules/
+jspm_packages/
+bower_components
 
 # Build output
 .next/
 dist/
 out/
+.nuxt
+.cache
+.parcel-cache
+.docusaurus
+.serverless/
 
 # Logs + OS files
 *.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.*.json
 .DS_Store
 Thumbs.db
 
-# Env
+# Env files
+.env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Backup / Filters
-git-filter-repo/
-.vercel
+# Diagnostic + Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+.nyc_output
+*.lcov
+*.tsbuildinfo
+
+# Tooling / Build caches
+.gitignore
+.eslintcache
+.stylelintcache
+.npm
+.node_repl_history
+.rpt2_cache/
+.rts2_cache_*/
+.yarn-integrity
+.cache/
+.fusebox/
+.vscode-test
+.yarn/
+.pnp.*
+.lock-wscript
+build/Release
+.temp
+.tern-port
