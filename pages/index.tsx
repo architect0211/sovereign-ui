@@ -16,18 +16,25 @@ export default function Home() {
       <h1 style={{
         fontSize: '2.5rem',
         fontWeight: 700,
-        marginBottom: '1rem',
+        marginBottom: '0.5rem',
         letterSpacing: '0.5px',
       }}>
-        Sovereign UI Console
+        Project Enlighten
       </h1>
+      <h2 style={{
+        fontSize: '1.75rem',
+        fontWeight: 500,
+        marginBottom: '1.5rem',
+      }}>
+        Sovereign UI Console
+      </h2>
       <p style={{
         fontSize: '1.125rem',
         maxWidth: '600px',
         opacity: 0.85,
       }}>
         Welcome to the deployment interface.<br />
-        <strong>Awaiting Buddy Signal...</strong>
+        <strong>Awaiting piE2 Signal...</strong>
       </p>
     </main>
   );
