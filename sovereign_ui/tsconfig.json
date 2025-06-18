@@ -1,0 +1,112 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    /* Projects */
+    // "incremental": true,
+    // "composite": true,
+    // "tsBuildInfoFile": "./.tsbuildinfo",
+    // "disableSourceOfProjectReferenceRedirect": true,
+    // "disableSolutionSearching": true,
+    // "disableReferencedProjectLoad": true,
+
+    /* Language and Environment */
+    "target": "es2016",
+    // "lib": [],
+    // "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // "libReplacement": true,
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    // "jsxFactory": "",
+    // "jsxFragmentFactory": "",
+    // "jsxImportSource": "",
+    // "reactNamespace": "",
+    // "noLib": true,
+    // "useDefineForClassFields": true,
+    // "moduleDetection": "auto",
+
+    /* Modules */
+    "module": "commonjs",
+    // "rootDir": "./",
+    // "moduleResolution": "node10",
+    // "baseUrl": "./",
+    // "paths": {},
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    // "allowUmdGlobalAccess": true,
+    // "moduleSuffixes": [],
+    // "allowImportingTsExtensions": true,
+    // "rewriteRelativeImportExtensions": true,
+    // "resolvePackageJsonExports": true,
+    // "resolvePackageJsonImports": true,
+    // "customConditions": [],
+    // "noUncheckedSideEffectImports": true,
+    // "resolveJsonModule": true,
+    // "allowArbitraryExtensions": true,
+    // "noResolve": true,
+
+    /* JavaScript Support */
+    // "allowJs": true,
+    // "checkJs": true,
+    // "maxNodeModuleJsDepth": 1,
+
+    /* Emit */
+    // "declaration": true,
+    // "declarationMap": true,
+    // "emitDeclarationOnly": true,
+    // "sourceMap": true,
+    // "inlineSourceMap": true,
+
+    "noEmit": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "removeComments": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    // "sourceRoot": "",
+    // "mapRoot": "",
+    // "inlineSources": true,
+    // "emitBOM": true,
+    // "newLine": "crlf",
+    // "stripInternal": true,
+    // "noEmitHelpers": true,
+    // "noEmitOnError": true,
+    // "preserveConstEnums": true,
+    // "declarationDir": "./",
+
+    /* Interop Constraints */
+    // "isolatedModules": true,
+    // "verbatimModuleSyntax": true,
+    // "isolatedDeclarations": true,
+    // "erasableSyntaxOnly": true,
+    // "allowSyntheticDefaultImports": true,
+
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

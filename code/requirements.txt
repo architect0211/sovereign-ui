@@ -1,0 +1,11 @@
+Flask
+flask-cors
+openai
+whisper
+pygame
+webrtcvad
+requests
+keyboard
+torch
+numpy
+ffmpeg-python

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+runtime_memory/
+uploads/
+frames/
+buddy_response.mp3
+live_input.wav
