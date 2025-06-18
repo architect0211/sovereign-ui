@@ -16,3 +16,4 @@ Thumbs.db
 
 # Backup / Filters
 git-filter-repo/
+.vercel
